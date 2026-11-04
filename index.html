@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damara Keisya Ramadhani — Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Kursor glow (desktop) -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">D<span>K</span>R</a>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Halo, saya</p>
+      <h1 class="hero-name">Damara Keisya<br><span>Ramadhani</span></h1>
+      <p class="hero-tagline">
+        <span id="typed"></span><span class="cursor">|</span>
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+        <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-frame">
+        <img src="assets/foto-damara.jpg" alt="Foto Damara Keisya Ramadhani" />
+      </div>
+      <div class="glow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title reveal">Tentang <span>Saya</span></h2>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3>Profil Singkat</h3>
+        <p>
+          Saya siswa jurusan <strong>Pengembangan Perangkat Lunak & Game (PPLG)</strong>
+          yang juga pernah menjabat sebagai <strong>Ketua OSIS</strong> di SMP. Saya suka
+          membangun hal yang berguna lewat kode, dan senang memimpin tim untuk
+          mewujudkan ide menjadi nyata.
+        </p>
+      </div>
+      <div class="about-card reveal">
+        <h3>Keahlian</h3>
+        <ul class="skills">
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>Pemrograman Dasar</li>
+          <li>Game Development</li>
+          <li>Leadership</li>
+          <li>Public Speaking</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title reveal">Proyek <span>Saya</span></h2>
+    <p class="section-sub reveal">Beberapa karya yang pernah saya bangun.</p>
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 -->
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-1.jpg" alt="Project 1" />
+        </div>
+        <div class="project-body">
+          <h3>Website Sonic Flow</h3>
+          <p>Project ini adalah project musik yang dikerjakan tim.</p>
+          <a href="https://github.com/damarakeisya08/Sonic-Flow.git" target="_blank" rel="noopener" class="btn btn-small">
+            Lihat di GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 2 -->
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-2.jpg" alt="Project 2" />
+        </div>
+        <div class="project-body">
+          <h3>Game Candy Crush</h3>
+          <p>Project publikasi game Candy Crush.</p>
+          <a href="https://github.com/damarakeisya08/Game-Candy-Crush.git" target="_blank" rel="noopener" class="btn btn-small">
+            Lihat di GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 3 -->
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-3.jpg" alt="Project 3" />
+        </div>
+        <div class="project-body">
+          <h3>Game Whack A Mole</h3>
+          <p>Project publikasi game Whack A Mole.</p>
+          <a href="https://github.com/damarakeisya08/Game-Whack-A-Mole.git" target="_blank" rel="noopener" class="btn btn-small">
+            Lihat di GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 4 -->
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-4.jpg" alt="Project 4" />
+        </div>
+        <div class="project-body">
+          <h3>To-do list</h3>
+          <p>Project To-do list untuk membangun semangat hidup prduktif.</p>
+          <a href="https://github.com/damarakeisya08/TO-DO-LIST-PURPLE.git" target="_blank" rel="noopener" class="btn btn-small">
+            Lihat di GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 5 -->
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/project-5.jpg" alt="Project 5" />
+        </div>
+        <div class="project-body">
+          <h3>Nama Project 5</h3>
+          <p>Deskripsi singkat project kelima kamu di sini.</p>
+          <a href="https://github.com/username/repo-5" target="_blank" rel="noopener" class="btn btn-small">
+            Lihat di GitHub
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <h2 class="section-title reveal">Mari <span>Terhubung</span></h2>
+    <p class="section-sub reveal">Terbuka untuk kolaborasi, magang, dan belajar bersama.</p>
+    <div class="contact-links reveal">
+      <a href="keiisyadmraa@gmail.com" class="btn btn-primary">Email Saya</a>
+      <a href="https://github.com/damarakeisya08" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+      <a href="https://www.instagram.com/damsyasya?srtk=MXJheDUxd2x3dDc4Mw==" target="_blank" rel="noopener" class="btn btn-ghost">Instagram</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Damara Keisya Ramadhani. Dibuat dengan 💙</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
